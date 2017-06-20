@@ -16,3 +16,15 @@ mod "puppetlabs/apache",      '1.11.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'ssh',
+  :git  => 'https://github.com/gramgersh/puppet-ssh.git',
+  :branch  => 'master'
+
+mod 'profile',
+  :git  => 'https://github.com/gramgersh/puppet-profile.git',
+  :branch  => 'master'
+
+mod 'role',
+  :git  => 'https://github.com/gramgersh/puppet-role.git',
+  :branch  => 'master'
